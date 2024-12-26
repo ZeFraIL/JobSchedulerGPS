@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="50dp"
+    tools:context=".CurrentLocation">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Current Location"
+        android:textSize="25dp"
+        android:layout_marginBottom="30dp"/>
+
+    <TextView
+        android:id="@+id/tvAdddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Addrress"
+        android:textSize="25dp"
+        android:layout_marginBottom="30dp"/>
+
+    <TextView
+        android:id="@+id/tvCity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="City"
+        android:textSize="25dp"
+        android:layout_marginBottom="30dp"/>
+
+    <TextView
+        android:id="@+id/tvCountry"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Country"
+        android:textSize="25dp"
+        android:layout_marginBottom="30dp"/>
+
+    <TextView
+        android:id="@+id/tvLat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Latitude"
+        android:textSize="25dp"
+        android:layout_marginBottom="30dp"/>
+
+    <TextView
+        android:id="@+id/tvLon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Longitude"
+        android:textSize="25dp"
+        android:layout_marginBottom="30dp"/>
+
+    <Button
+        android:id="@+id/bGetLocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:text="Get Location"/>
+
+</LinearLayout>
